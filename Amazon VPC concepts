@@ -1,0 +1,9 @@
+Amazon VPC is the networking layer for Amazon EC2.If you're new to Amazon EC2,see What is Amazon EC2?in the Amazon EC2 User Guide for Linux Instances to getabrief overview.
+The following are the key concepts for VPCS
+•Virtual private cloud(VPC)-A virtual network dedicated to your AWS account.
+•Subnet --Arange of IP addresses in your VPC.
+.CIDR block-Classless Inter-Domain Routing.An internet protocol address allocation and route aggregation methodology.For more information,see Classless Inter-Domain Routing in
+ Wikipedia.
+•Route table-Aset of rules,called routes,that are used to determine where network traffic is directed.
+•DHCP options sets:Configuration information(such as domain name and domain name server)passed to EC2 instances when they are launched into VPC subnets.
+•Internet gateway-Agateway that you attach to your VPC to enable communication between resources in your VPC and the internet.
